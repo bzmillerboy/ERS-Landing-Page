@@ -51,10 +51,21 @@ input.form-control, input.btn.btn-default.btn-lg {
   margin-bottom: 10px;
 }
 
+.schedule-promo {
+  max-width: 170px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: $screen-sm-min) {
+.panel {
+  padding: 0 15px;
+ }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
 
- }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {  }
