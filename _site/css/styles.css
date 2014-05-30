@@ -263,7 +263,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Helvetica, "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -6320,7 +6320,7 @@ a:hover {
   text-decoration: none; }
 
 html {
-  background: url(/images/bg.gif) no-repeat center center fixed;
+  background: url(../images/bg.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6350,6 +6350,13 @@ body {
 input.form-control, input.btn.btn-default.btn-lg, .btn-group-lg > input.btn.btn-default {
   margin-bottom: 10px; }
 
+.schedule-promo {
+  max-width: 170px; }
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .panel {
+    padding: 0 15px; } }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
